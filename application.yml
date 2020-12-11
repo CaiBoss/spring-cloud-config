@@ -1,8 +1,12 @@
 spring:
-  profiles: dev
-  name: niubi
+  profiles: 
+    active: dev
+  application:
+    name: niubi
   
 ---
 spring:
-  profiles: test
-  name: niubi
+  profiles: 
+    active: test
+  application:
+    name: niubi
