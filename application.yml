@@ -1,0 +1,8 @@
+spring:
+  profiles: dev
+  name: niubi
+  
+---
+spring:
+  profiles: test
+  name: niubi
